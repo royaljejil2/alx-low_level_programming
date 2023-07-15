@@ -4,12 +4,13 @@
  * Description: "Write a function that prints the alphabet, in lowercase, followed by a new line."
  * Return: void
  */
-
 void print_alphabet(void)
 {
-	char ch;
+	int n;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
-		_putchar(ch);
+	for (n = 97; n <= 122; n++)
+	{
+		_putchar(n);
+	}
 	_putchar('\n');
 }
