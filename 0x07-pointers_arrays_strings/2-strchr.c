@@ -12,7 +12,7 @@ char *_strchr(char *s, char c)
 {
 	int dulcie = 0;
 
-	for (; s[dulcie] > '\0'; dulcie++)
+	for (; s[dulcie] >= '\0'; dulcie++)
 	{
 		if (s[dulcie] == c)
 		{
