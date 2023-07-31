@@ -1,9 +1,10 @@
 #include "main.h"
+
 /**
- * _sqrt_jey - recurses to find the natural square root of a number
+ * sqrt_jey - recurses to find the natural square root of a number
  * @w: number to calculate the square root
  * @z: iterator
- * Return: the resulting square root
+ * Return: the natural square root
  */
 
 int sqrt_jey(int w, int z)
@@ -15,7 +16,6 @@ int sqrt_jey(int w, int z)
 	return (sqrt_jey(w, z + 1));
 }
 
-#include "main.h"
 /**
  * _sqrt_recursion - returns the natural square root of a number
  * @n: the input number
