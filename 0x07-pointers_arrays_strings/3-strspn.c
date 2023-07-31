@@ -1,6 +1,7 @@
 #include "main.h"
 
-/**_strspn - A function that gets the lenght of a prefix substring.
+/**
+ * _strspn - A function that gets the lenght of a prefix substring.
  * @accept: The list to be measured.
  * @s: The string to be searched.
  * Return: The number of bytes in s which
