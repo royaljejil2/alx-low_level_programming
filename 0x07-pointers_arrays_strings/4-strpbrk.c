@@ -9,13 +9,13 @@
 
 char *_strpbrk(char *s, char *accept)
 {
-	int index = 0;
+	int pace = 0;
 
 	while (*s)
 	{
-		for (; accept[index]; index++)
+		for (; accept[pace]; pace++)
 		{
-			if (*s == accept[index])
+			if (*s == accept[pace])
 				return (s);
 		}
 		s++;
